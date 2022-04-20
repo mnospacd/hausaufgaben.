@@ -13,4 +13,5 @@ For the homework I use Firebase to store the data online. For the substitutes I 
 ## Wie man es installiert
 
 >"Instructions", this will be german only.
-to do
+
+**Android Handys: ** [Hier klicken](./Anleitung_android.md)
