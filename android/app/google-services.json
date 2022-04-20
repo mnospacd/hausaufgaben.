@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "406719502396",
+    "project_id": "ohs-hausaufgaben",
+    "storage_bucket": "ohs-hausaufgaben.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406719502396:android:f708d7a3e31e502d0a0b39",
+        "android_client_info": {
+          "package_name": "pl.baumlaufer0815.hausaufgaben"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406719502396-g5kq1230hhe0a3j79o1igak8guid5aui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7srtBOTLyIUlT0WA7DE-IM1naJ1nx1rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406719502396-g5kq1230hhe0a3j79o1igak8guid5aui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
