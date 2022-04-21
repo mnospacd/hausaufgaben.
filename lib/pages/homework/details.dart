@@ -24,7 +24,7 @@ class _HomeworkDetailsPageState extends State<HomeworkDetailsPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(
-              height: 64,
+              height: 28,
             ),
             Padding(
               padding: const EdgeInsets.only(bottom: 8.0),

@@ -4,7 +4,7 @@ import '../../styling.dart';
 
 Widget NavigationDrawerHeader() {
   return SizedBox(
-    height: 120.0,
+    height: 82.0,
       child: Padding(
         padding: const EdgeInsets.all(18.0),
         child: Column(
