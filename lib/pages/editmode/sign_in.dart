@@ -20,7 +20,7 @@ class SignInPage extends StatelessWidget {
             statusBarColor: AppTheme.greyDarkGreen
         ),
         title: Text(
-          'Bearbeitungsmodus Anmeldung',
+          'Bearbeitung-Login',
           style: AppTheme.textTheme.headline6,
         ),
       ),
