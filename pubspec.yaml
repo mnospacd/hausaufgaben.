@@ -38,6 +38,7 @@ dependencies:
   cloud_firestore: ^3.1.12
   shared_preferences: ^2.0.13
   json_serializable: ^6.1.6
+  url_launcher: ^6.0.20
 
 dev_dependencies:
   flutter_test:

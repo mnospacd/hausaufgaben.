@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hausaufgaben/components/firebase/reset_uuids.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../routes/pageRoute.dart';
 import '../../styling.dart';
@@ -8,6 +9,7 @@ Widget NavigationDrawerTile(BuildContext context, String _page) {
   if (_page == 'homework') { return _homework(context); }
   else if (_page == 'timetable') { return  _timetable(context);}
   else if (_page == 'resetUuids') { return _resetUuids(context);}
+  else if (_page == 'github') { return _github(context);}
   else { return const Text('Wrong list Tile specified!'); }
 }
 
@@ -66,5 +68,19 @@ Widget _resetUuids(BuildContext context) {
     onTap: () {
       resetUuids();
     },
+  );
+}
+
+Widget _github(BuildContext context) {
+  return ListTile(
+    textColor: AppTheme.white,
+    iconColor: AppTheme.white,
+    selectedColor: AppTheme.greyLightGreen,
+    leading: const Icon(Icons.code),
+    title: Text(
+        'Github',
+        style: AppTheme.textTheme.bodyText1
+    ),
+    onTap: () => launch('https://github.com/Baumlaeufer0815/hausaufgaben.')
   );
 }

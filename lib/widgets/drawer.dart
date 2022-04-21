@@ -24,8 +24,9 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
           children: [
             NavigationDrawerHeader(),
             NavigationDrawerTile(context, 'homework'),
-            NavigationDrawerTile(context, 'timetable'),
-            NavigationDrawerTile(context, 'resetUuids')
+            //NavigationDrawerTile(context, 'timetable'),
+            //NavigationDrawerTile(context, 'resetUuids'),
+            NavigationDrawerTile(context, 'github')
           ],
         ),
       ),
