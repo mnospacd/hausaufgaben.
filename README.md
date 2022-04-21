@@ -1,16 +1,17 @@
-# hausaufgaben
+# hausaufgaben.
 
-Eine App die Stundenplan, Vertretungsplan und Hausaufgaben anzeigt.
+>In English: "homework."
 
-## Getting Started
+I created this app only for my class, because no teacher is properly using our online school platform **"Lanis"**  _(like writing fucking homework in this stupid platform)_. There are some teachers which are using the platform properly, but most not. There are also other reasons, many forget their passwords and the platform is just crab shit, but there is an app which is better for using the platform ([check here](https://github.com/Baumlaeufer0815/sph-planner)), but this app has its own problems.
 
-This project is a starting point for a Flutter application.
+Since I made this app only for my class, the code is no the best, I am also a beginner in Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## The app
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+For the homework I use Firebase to store the data online. For the substitutes I will use a web scraper in flutter or by an extra API. The timetable will be hardcoded.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Wie man es installiert
+
+>"Instructions", this will be german only.
+
+**Android Handys:** [Hier klicken](./Anleitung_android.md)
