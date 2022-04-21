@@ -3,7 +3,7 @@
 ### Du musst Safari verwenden.
 
 ## Schritt 1
-![image](https://user-images.githubusercontent.com/73837560/164535791-78253e42-09b1-41bb-92bf-1b587a05fafb.png)
+![image](https://user-images.githubusercontent.com/73837560/164537237-d98a1de3-820d-4607-8faf-4df488e8441a.png)
 
 Du drückst auf das "Teilen"-Button
 
