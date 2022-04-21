@@ -15,3 +15,5 @@ For the homework I use Firebase to store the data online. For the substitutes I 
 >"Instructions", this will be german only.
 
 **Android Handys:** [Hier klicken](./Anleitung_android.md)
+
+**iOS Handys:** [Hier klicken](./Anleitung_ios.md)
