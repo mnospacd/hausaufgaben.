@@ -2,7 +2,7 @@
 
 >In English: "homework."
 
-I created this app only for my class, because no teacher is properly using our online school platform **"Lanis"**  _(like writing fucking homework in this stupid platform)_. There are some teachers which are using the platform properly, but most not.
+I created this app only for my class, because no teacher is properly using our online school platform **"Lanis"**  _(like writing fucking homework in this stupid platform)_. There are some teachers which are using the platform properly, but most not. There are also other reasons, many forget their passwords and the platform is just crab shit, but there is an app which is better for using the platform ([check here](https://github.com/Baumlaeufer0815/sph-planner)), but this app has its own problems.
 
 Since I made this app only for my class, the code is no the best, I am also a beginner in Flutter.
 
