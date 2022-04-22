@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:hausaufgaben/pages/editmode/settings.dart';
+import 'package:hausaufgaben/pages/editmode/page.dart';
 import 'package:hausaufgaben/pages/editmode/sign_in.dart';
 import 'package:provider/provider.dart';
 

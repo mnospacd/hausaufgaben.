@@ -14,7 +14,8 @@ class AppTheme {
     subtitle1: subtitle1,
     headline6: title2,
     headline5: title1,
-    headline4: headline4
+    headline4: headline4,
+    caption: caption
   );
 
   static const TextStyle body1 = TextStyle(
@@ -44,5 +45,11 @@ class AppTheme {
       fontFamily: 'Inter',
       fontSize: 14,
       color: Colors.black
+  );
+
+  static const TextStyle caption = TextStyle(
+      fontFamily: 'Inter',
+      fontSize: 14,
+      color: Colors.grey
   );
 }
