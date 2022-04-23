@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hausaufgaben/globals.dart';
 
-import '../components/firebase/get_data.dart';
-import '../pages/homework/details.dart';
-import '../styling.dart';
+import '../../components/firebase/get_data.dart';
+import '../../pages/homework/details.dart';
+import '../../styling.dart';
 
 class homeworkListView extends StatefulWidget {
   const homeworkListView({Key? key}) : super(key: key);

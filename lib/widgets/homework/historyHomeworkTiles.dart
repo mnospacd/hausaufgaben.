@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hausaufgaben/globals.dart';
 import 'package:hausaufgaben/pages/homework/details.dart';
 
-import '../styling.dart';
+import '../../styling.dart';
 
 class historyHomeworkListView extends StatefulWidget {
   const historyHomeworkListView({Key? key}) : super(key: key);
