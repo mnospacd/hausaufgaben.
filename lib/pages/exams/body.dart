@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hausaufgaben/widgets/exam/historyHomeworkTiles.dart';
+import 'package:hausaufgaben/widgets/exam/exam_history_tiles.dart';
 
-import '../../widgets/exam/homeworkTiles.dart';
+import '../../widgets/exam/exam_tiles.dart';
 
 Widget examBody() {
   return const TabBarView(

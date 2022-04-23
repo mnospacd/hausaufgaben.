@@ -6,7 +6,8 @@ class ExamDetailsPage extends StatefulWidget {
   final String subject;
   final String given;
   final String content;
-  const ExamDetailsPage(this.subject, this.given, this.content);
+  final int index;
+  const ExamDetailsPage(this.subject, this.given, this.content, this.index);
 
   @override
   State<ExamDetailsPage> createState() => _ExamDetailsPageState();
@@ -32,9 +33,12 @@ class _ExamDetailsPageState extends State<ExamDetailsPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  Text(
-                    widget.subject,
-                    style: AppTheme.textTheme.headline4,
+                  Hero(
+                    tag: "title" + widget.index.toString(),
+                    child: Text(
+                      widget.subject,
+                      style: AppTheme.textTheme.headline4,
+                    ),
                   ),
                   IconButton(
                       onPressed: () {

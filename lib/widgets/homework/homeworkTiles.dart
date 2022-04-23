@@ -42,15 +42,37 @@ class _homeworkListViewState extends State<homeworkListView> {
               });
             },
             child: ListTile(
-              title: Text(
-                homeworkDataList[i]['Subject'],
-                style: AppTheme.textTheme.headline5,
+              title: Hero(
+                tag: "title" + i.toString(),
+                child: Material(
+                  type: MaterialType.transparency,
+                  child: Text(
+                    homeworkDataList[i]['Subject'],
+                    style: AppTheme.textTheme.headline5,
+                  ),
+                ),
               ),
-              subtitle: Text(
-                homeworkDataList[i]['Content'],
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: AppTheme.textTheme.subtitle1,
+              subtitle: Hero(
+                tag: 'subtitle' + i.toString(),
+                child: Material(
+                  type: MaterialType.transparency,
+                  child: Text(
+                    homeworkDataList[i]['Content'],
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: AppTheme.textTheme.subtitle1,
+                  ),
+                ),
+              ),
+              trailing: Hero(
+                tag: 'icon' + i.toString(),
+                child: const Material(
+                  type: MaterialType.transparency,
+                  child: Icon(
+                    Icons.expand_more,
+                    color: Colors.black,
+                  ),
+                ),
               ),
               tileColor: AppTheme.white,
               shape: RoundedRectangleBorder(
@@ -58,7 +80,7 @@ class _homeworkListViewState extends State<homeworkListView> {
               ),
               visualDensity: const VisualDensity(vertical: 4.0),
               onTap: () {
-                Navigator.of(context).push(MaterialPageRoute(builder: (context) => HomeworkDetailsPage(homeworkDataList[i]['Subject'], homeworkDataList[i]['Given'], homeworkDataList[i]['Content'])));
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => HomeworkDetailsPage(homeworkDataList[i]['Subject'], homeworkDataList[i]['Given'], homeworkDataList[i]['Content'], i)));
                 },
             ),
           );
