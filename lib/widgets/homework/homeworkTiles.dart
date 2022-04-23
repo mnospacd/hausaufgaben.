@@ -41,47 +41,34 @@ class _homeworkListViewState extends State<homeworkListView> {
                 homeworkDataList.removeAt(i);
               });
             },
-            child: ListTile(
-              title: Hero(
-                tag: "title" + i.toString(),
-                child: Material(
-                  type: MaterialType.transparency,
-                  child: Text(
+            child: Hero(
+              tag: 'tile' + i.toString(),
+              child: Material(
+                child: ListTile(
+                  title: Text(
                     homeworkDataList[i]['Subject'],
                     style: AppTheme.textTheme.headline5,
                   ),
-                ),
-              ),
-              subtitle: Hero(
-                tag: 'subtitle' + i.toString(),
-                child: Material(
-                  type: MaterialType.transparency,
-                  child: Text(
+                  subtitle: Text(
                     homeworkDataList[i]['Content'],
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: AppTheme.textTheme.subtitle1,
                   ),
-                ),
-              ),
-              trailing: Hero(
-                tag: 'icon' + i.toString(),
-                child: const Material(
-                  type: MaterialType.transparency,
-                  child: Icon(
+                  trailing: const Icon(
                     Icons.expand_more,
                     color: Colors.black,
                   ),
+                  tileColor: AppTheme.white,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16.0)
+                  ),
+                  visualDensity: const VisualDensity(vertical: 4.0),
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => HomeworkDetailsPage(homeworkDataList[i]['Subject'], homeworkDataList[i]['Given'], homeworkDataList[i]['Content'], i)));
+                    },
                 ),
               ),
-              tileColor: AppTheme.white,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16.0)
-              ),
-              visualDensity: const VisualDensity(vertical: 4.0),
-              onTap: () {
-                Navigator.of(context).push(MaterialPageRoute(builder: (context) => HomeworkDetailsPage(homeworkDataList[i]['Subject'], homeworkDataList[i]['Given'], homeworkDataList[i]['Content'], i)));
-                },
             ),
           );
         },
